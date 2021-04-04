@@ -1,0 +1,121 @@
+
+
+
+.fcColor
+{
+		color:rgb(54,119,235);
+		font-size: 65px;
+		font-weight:bold; 
+		margin-top: 42%;
+}
+
+.dtColor
+{
+color:rgb(28,30,33);
+font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  display: inline-block;
+  word-spacing: 10px; 
+
+}
+.loginColor
+{   width: 120%;
+	margin-top: 50%;
+	background-color: white;
+	border-radius: 8px; 
+	padding: 7%;
+}
+
+.pswColor
+{
+ color:rgb(54,119,234);
+}
+.pswColor:hover {
+  text-decoration:underline;
+}
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 8%;
+   background-color: white;
+   text-align: center;
+   font-size: 12px;
+}
+
+.wrdColor
+{
+ color:rgb(137,139,143);
+}
+.wrdColor:hover {
+  text-decoration:underline;
+}
+
+.aColor
+{
+color:rgb(137,139,143);
+}
+.aColor:hover {
+color:rgb(137,139,143);
+}
+/*  ************** TWİTTER ***************** */
+
+.inputT{
+background-color: black; 
+color: rgb(111,118,124); 
+width: 90%; 
+margin-left: 5%; 
+height: 55px;
+}
+.buttonT{
+font-size: 13px; 
+margin-top: 7%; 
+width: 90%; 
+margin-left:2%;
+}
+
+.lloginColor
+{   
+background-color: black;
+ font-size: 20px;
+  padding: 7%;
+  text-align: center; 
+}
+
+.twFont
+{
+  font-weight:bold; 
+    color: white;
+    font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+     word-spacing: 10px;
+     font-size: 230%; 
+     text-align: center;
+     margin-bottom: -10px;
+
+}
+
+
+
+
+.pswFont
+{
+ color:rgb(63,134,198);
+}
+.pswFont:hover {
+  text-decoration:underline;
+   color:rgb(63,134,198);
+}
+
+.twButton
+{
+font-weight: bold; font-size: 15px; 
+padding: 4%; width: 100%; 
+background-color:rgb(67,144,212);
+}
+
+
+
+
+
+
+
